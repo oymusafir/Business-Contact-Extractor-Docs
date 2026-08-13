@@ -173,7 +173,7 @@ Examples:
 ```
 
 ```text
--site:facebook.com -site:instagram.com -site:linkedin.com
+-facebook.com -instagram.com -linkedin.com
 ```
 
 ```text
@@ -185,13 +185,13 @@ Examples:
 This is a reliable starting structure:
 
 ```text
-"[CATEGORY]" "[LOCATION]" "contact" -site:facebook.com -site:instagram.com -site:linkedin.com
+"[CATEGORY]" "[LOCATION]" "contact" -facebook.com -instagram.com -linkedin.com
 ```
 
 Example:
 
 ```text
-"commercial cleaning" "Abu Dhabi" "contact" -site:facebook.com -site:instagram.com -site:linkedin.com
+"commercial cleaning" "Abu Dhabi" "contact" -facebook.com -instagram.com -linkedin.com
 ```
 
 Do not add every available operator at once. Start with the category and location, then add one new filter at a time.
@@ -877,7 +877,7 @@ Replace `[CATEGORY]`, `[LOCATION]`, `[DOMAIN]` and `[DATE]` before searching.
 ### Remove major social platforms
 
 ```text
-"[CATEGORY]" "[LOCATION]" "contact" -site:facebook.com -site:instagram.com -site:linkedin.com
+"[CATEGORY]" "[LOCATION]" "contact" -facebook.com -instagram.com -linkedin.com
 ```
 
 ### Find either email or WhatsApp
@@ -1165,7 +1165,7 @@ Add:
 Add:
 
 ```text
--site:facebook.com -site:instagram.com -site:linkedin.com
+-facebook.com -instagram.com -linkedin.com
 ```
 
 ### Problem: You only want Instagram profiles
@@ -1181,7 +1181,7 @@ site:instagram.com "[CATEGORY]" "[LOCATION]" -inurl:reel -inurl:p
 Use the master website query:
 
 ```text
-"[CATEGORY]" "[LOCATION]" "contact" -site:facebook.com -site:instagram.com -site:linkedin.com
+"[CATEGORY]" "[LOCATION]" "contact" -facebook.com -instagram.com -linkedin.com
 ```
 
 For UAE businesses, also test:
@@ -1272,7 +1272,7 @@ Example:
 | Search one domain | `site:domain.com` | `site:wa.me "boutique"` |
 | Search UAE domains | `site:.ae` | `site:.ae "accounting firm"` |
 | Remove a word | `-word` | `-jobs -careers -hiring` |
-| Remove a website | `-site:domain.com` | `-site:facebook.com` |
+| Remove a website | `-domain.com` | `-facebook.com` |
 | Accept alternatives | `(A OR B)` | `("email" OR "WhatsApp")` |
 | Find business email prefixes | OR group | `("info@" OR "contact@" OR "sales@" OR "hello@")` |
 | Find a URL word | `inurl:word` | `inurl:contact` |
