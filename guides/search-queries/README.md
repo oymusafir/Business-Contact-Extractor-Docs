@@ -403,13 +403,13 @@ Example:
 ### Remove entire websites
 
 ```text
--site:facebook.com -site:instagram.com -site:linkedin.com
+-facebook.com -instagram.com -linkedin.com
 ```
 
 Example:
 
 ```text
-"boutique" "Dubai" "contact" -site:facebook.com -site:instagram.com -site:linkedin.com
+"boutique" "Dubai" "contact" -facebook.com -instagram.com -linkedin.com
 ```
 
 Use this when social profiles are dominating the results and you want more official business websites, directories or contact pages.
@@ -1039,7 +1039,7 @@ Purpose:
 ### Step 4: Reduce social results
 
 ```text
-"boutique" "Dubai" "contact" -site:facebook.com -site:instagram.com -site:linkedin.com
+"boutique" "Dubai" "contact" -facebook.com -instagram.com -linkedin.com
 ```
 
 Purpose:
